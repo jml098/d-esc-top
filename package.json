@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "type": "module",
   "description": "React TypeScript on Replit, using Vite bundler",
+  "homepage": "https://jml098.github.io/d-esc-top/",
   "scripts": {
     "dev": "vite",
+    "deploy": "gh-pages -d dist",
+    "clean": "gh-pages-clean gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview"
-  },
+  }, 
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -21,6 +24,7 @@
     "vite": "^5.0.0"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "primeicons": "^7.0.0",
     "primereact": "^10.6.3"
   }
